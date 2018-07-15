@@ -5,6 +5,10 @@
   <remote name="origin"
           fetch="https://github.com/caoyanfeng/"
           review="https://github.com/caoyanfeng/" />
+  
+    <remote name="origin"
+          fetch="https://github.com/gavinliu/"
+          review="https://github.com/gavinliu/" />
 
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
   <default revision="master"
@@ -14,4 +18,8 @@
   <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
   <project path="LightNote" name="LightNote" />
   <project path="opencv-2-cookbook-src" name="opencv-2-cookbook-src" />
+  <project path="ShapedImageView" name="ShapedImageView" />
 </manifest>
+
+
+
